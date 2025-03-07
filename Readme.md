@@ -3,18 +3,32 @@ Language Representation
 This respository contains the code base for the Programming assignment given by Precog. I have attempted the Language Representation Task which covers constructing co-occurence matrix from a chosen dataset, converting them into dense embeddings and evaluating them against neural embeddings, cross-lingual alignment, and analysing harmful associations in static and contextual embeddings. 
 
 Tasks Completeted
+
     Part 1 - Dense Representations
+    
         Constructed co-occurence matrix - determined the most appropriate window size
+        
         Dimensionality reduction - computed the most suitable dimension in reduced space
+        
         Evaluate the quality of embeddings - Evaluated embeddings across 3 tasks/methods: Word similarity, Analogy reasoning, Clustering and Visualization
+        
         Neural Embeddings - Evaluated Glove embeddings using same methodology as before and compared the results with that of co-occurrence based embeddings
+
+        
     Part 2 - Cross-Lingual Alignment 
+    
         Used pre-trained fasttext embeddings for both Hindi and English.
+        
         Used Procrustes alignment to learn transformation for projecting Hindi embeddings and English embedding space
+        
         Evaluated the alignment quantitatively using MUSE dataset. Also used a self-generated dataset for this evaluation
+        
     Part 3 - Harmful Associations (Bonus)
+    
         Analysed harmful associations in both static and contextual embeddings. 
+        
         Used Glove 300 dimensional embeddings for static analysis. Quantitative analysis was done using the WEAT test. 
+        
         Used Bert-base-uncased for contextual analysis and qualified my analysis using Causal Language Modeling. Generated sentence likelihood scores for different sentence to assess the stereotype present in contextual embeddings
 
 Directory Structure
