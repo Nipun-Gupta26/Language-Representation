@@ -1,0 +1,4 @@
+embeddings/
+co_occurrence_matrices/
+fasttext/
+kmeans/
